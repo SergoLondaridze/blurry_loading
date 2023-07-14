@@ -22,7 +22,10 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
 };
 
+console.log(scale(100, 0, 100, 30, 0));
+
 // ჩემი მეთოდით
+// 30-30*a/100
 
 // const container = document.querySelector(".container ");
 // const h1 = document.querySelector("h1");
